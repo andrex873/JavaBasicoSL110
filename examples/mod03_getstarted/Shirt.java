@@ -1,17 +1,36 @@
 public class Shirt {
 
-    public int shirtID = 0; // Default ID for the shirt
+    /**
+     * Atributo que contine el id de la camiseta
+     */
+    public int shirtID = 0; 
 
-    public String description = "-description required-"; // default
+    /**
+     * Atributo que contiene la descripción de la camiseta
+     */
+    public String description = "-description required-"; 
 
-    // The color codes are R=Red, B=Blue, G=Green, U=Unset
+    /**
+     * Atributo que contiene el codigo de color de una camiseta.
+     */
     public char colorCode = 'U';
 
-    public double price = 0.0; // Default price for all shirts
+    /**
+     * Atrinuto que contiene el pecio de la camiseta.
+     */
+    public double price = 0.0; 
 
-    public int quantityInStock = 0; // Default quantity for all shirts
+    /**
+     * Atrinuto que contiene la cantidad de camisetas.
+     */
+    public int quantityInStock = 0; 
 
-    // This method displays the values for an item
+    /**
+     * Descripción del método displayInformation e imprime las salida standar
+     * de los aributos
+     * @author amendez
+     * @version 1
+     */
     public void displayInformation() {
 
         System.out.println("Shirt ID: " + shirtID);
@@ -19,6 +38,5 @@ public class Shirt {
         System.out.println("Color Code: " + colorCode);
         System.out.println("Shirt price: " + price);
         System.out.println("Quantity in stock: " + quantityInStock);
-
-    } // end of display method
-} // end of class
+    }
+} 
