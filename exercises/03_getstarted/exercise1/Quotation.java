@@ -1,9 +1,9 @@
 public class Quotation {
 
-  public String quote = "Welcome to Sun!";
+  public String quote = "Welcome to Sun!, con un cambio";
     
   public void display() {
 
-        /* Add code to display the value of the member variable. */
+        System.out.println(quote);
   }
 }
