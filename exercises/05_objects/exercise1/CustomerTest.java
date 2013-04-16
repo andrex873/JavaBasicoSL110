@@ -12,6 +12,8 @@ public class CustomerTest{
         c2.name = "Customer dos";
         c2.emailAddress = "customer2@correo.com";
 
+        c1 = c2;
+        
         c1.displayCustomerInfo();
         c2.displayCustomerInfo();
 
