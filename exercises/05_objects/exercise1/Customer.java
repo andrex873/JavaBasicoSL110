@@ -8,7 +8,7 @@ public class Customer {
   public void displayCustomerInfo() {
     System.out.println("********Customer Information********");
     System.out.println("Customer ID: " + customerID);
-    System.out.println("Name:" + name);
+    System.out.println("Name: " + name);
     System.out.println("Email: " + emailAddress);
     System.out.println("************************************");
   } // end of display method
