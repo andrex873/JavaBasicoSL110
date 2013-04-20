@@ -14,7 +14,7 @@ public class OperacionesService{
             System.out.println("El punto se encuentra dentro del circulo.");
         } else if(r2 < resultado){
             System.out.println("El punto se encuentra fuera del circulo.");
-            retorno = true;
+            retorno = false;
         }
         return retorno;
     }
