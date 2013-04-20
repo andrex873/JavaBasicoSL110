@@ -25,6 +25,9 @@ public class IfElevator {
 
   public void goDown() {
    
+    if (currentFloor == 0) {
+      currentFloor--;
+    }
     if (currentFloor == MIN_FLOORS) {
       System.out.println("Cannot Go down");
     }

@@ -18,12 +18,20 @@ public class Elevator {
   }
 
   public void goUp() {
+    if(TOP_FLOOR == currentFloor){
+      System.out.println("No es posible ir mas arriba.");  
+      return;
+    }
     System.out.println("Going up one floor.");
     currentFloor++;
     System.out.println("Floor: " + currentFloor);
   }
 
   public void goDown() {
+    if(MIN_FLOORS == (currentFloor)){
+      System.out.println("No es posible ir mas abajo");
+      return;
+    }
     System.out.println("Going down one floor.");
     currentFloor--;
     System.out.println("Floor: " + currentFloor);
