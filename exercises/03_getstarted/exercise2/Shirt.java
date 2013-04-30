@@ -11,11 +11,6 @@ public class Shirt {
     public String description = "-description required-"; 
 
     /**
-     * Atributo que contiene el codigo de color de una camiseta.
-     */
-    public char colorCode = 'U';
-
-    /**
      * Atrinuto que contiene el pecio de la camiseta.
      */
     public double price = 0.0; 
@@ -31,7 +26,7 @@ public class Shirt {
      * @author amendez
      * @version 1
      */
-    public void displayInformation() {
+    public void displayInformation() {        
 
         System.out.println("Shirt ID: " + shirtID);
         System.out.println("Shirt description:" + description);
@@ -39,4 +34,9 @@ public class Shirt {
         System.out.println("Shirt price: " + price);
         System.out.println("Quantity in stock: " + quantityInStock);
     }
+
+    /**
+     * Atributo que contiene el codigo de color de una camiseta.
+     */
+    public char colorCode = 'U';
 } 

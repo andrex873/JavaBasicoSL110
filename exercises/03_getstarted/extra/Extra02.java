@@ -1,11 +1,14 @@
-public class Extra01 {
+public class Extra02 {
 
     protected String param;
 
 
     public void myMethod(){
-        System.out.println("Utilizando myMethod con return");
-        return;
+        System.out.println("Metodo principal");
+        public void myMethod2(){
+            System.out.println("Metodo interno");
+        }
+        
     }
 
     public static void main(String[] args){
