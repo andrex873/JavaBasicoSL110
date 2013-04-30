@@ -1,7 +1,7 @@
 public class WhileRectangle {
 
-  public int height = 3;
-  public int width = 10;
+  public int height = 10;
+  public int width = 20;
 
   public void displayRectangle() {
 
@@ -15,7 +15,7 @@ public class WhileRectangle {
 	      System.out.print("@");
 	      colCount++;
       }
-      
+      width -= 2;
       System.out.println();
       rowCount++;
     }
